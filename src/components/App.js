@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./../styles/App.css";
-import tasks from "./data";
+import tasks from "./Data";
 import { useMemo } from "react";
 const App = () => {
   const [currentTab, setCurrentTab] = useState('All');
